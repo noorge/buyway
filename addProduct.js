@@ -1,4 +1,4 @@
-function func() {
+function funcc() {
     var notice = "";
     var missing = false;
 
