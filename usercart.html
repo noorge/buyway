@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Cart</title>
+    <link rel="stylesheet" href="styleSheet.css">
+    <script src="cartScript.js" defer></script>
+    <script src="javascript.js"></script>
+</head>
+<body>
+
+     <header>
+        <div class="header-content">
+            <img id="logo" src="webLogo.png" alt="logo">
+            <div id="navigation">
+                <form class="search-bar" action="search_results.html" method="get">
+                    <input type="text" name="search" placeholder="Search...">
+                    <input type="submit" value="Search">
+                </form>
+                <div id="links">
+                    <a href="index.html">Home Page</a> 
+                    <a href="usercart.html">/User Cart</a>
+                </div>
+            </div>
+            <blockquote>
+                Our vision: to build a thriving marketplace where creators and entrepreneurs can bring their unique products to a global audience.
+            </blockquote>
+        </div>
+    </header>
+
+        <div id="sidebar" class="float">
+        <div id="user-seller-sidebar">
+            <div id="pic-div">
+                <div id="user-sidebar">
+                    <img src="profile.png" alt="User Profile">
+                    <a href="userforder.html">user</a>
+                </div>
+                <div id="Seller-sidebar">
+                    <img src="profile.png" alt="Seller Profile">
+                    <a href="sellerDashboard.html">seller</a>
+                </div>
+            </div>
+        </div>
+
+        <dl>
+            <dt><a href="usercart.html">&nbsp;&nbsp;Cart Page</a></dt>
+            <dt><a href="clothes.html">&nbsp;&nbsp;Clothes</a></dt>
+            <dt><a href="beauty.html">&nbsp;&nbsp;Beauty</a></dt>
+            <dt><a href="electronics.html">&nbsp;&nbsp;Electronics</a></dt>
+        </dl>
+    </div>
+
+        <aside class="sidebaruser">
+        <div class="profile-container">
+            <img src="profilee.png" alt="Profile Picture" class="profile-picture">
+        </div>
+        <nav>
+            <ul>
+                <li id="Cart"><a href="usercart.html">Cart</a></li>
+                <li id="Order"><a href="userforder.html">Order</a></li>
+                <li id="prEv"><a href="Prodecteval.html">Product Evaluation</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <article>
+        <main id="userC">
+            <div id="cart-container">
+                <div id="cart-items">
+                    <h1 id="cart-title">Your Cart</h1>
+                    <!-- Dynamically generated cart items will appear here -->
+                    <p id="item-price-2">Subtotal: 20$</p>
+                </div>
+                <div id="order-summary">
+                    <h2 id="summary-title">Summary (1 item)</h2>
+                    <p id="summary-subtotal">Subtotal: 20$</p>
+                    <p id="summary-tax">Tax: 5%</p>
+                    <p id="summary-shipping">Shipping: 10$</p>
+                    <p id="summary-total">Total: 20$</p>
+                    <button id="delete-all" class="delete-all">Delete All</button>
+
+                    <button id="checkout-btn" class="checkout-btn">Checkout</button>
+                </div>
+            </div>
+        </main>
+    </article>
+
+        <footer>
+        <div id="footer">
+            <div class="organize">
+                <p></p>
+            </div>
+
+            <div id="contact-info">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><a href="tel:0587465783">0587465783</a></li>
+                    <li><a href="tel:05823994891">05823994891</a></li>
+                    <li><a href="mailto:buyway@gmail.com">buyway@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <div class="organize">
+                <p></p>
+                <div class="seperation-line"></div>
+            </div>
+            <div id="social-accounts">
+                <h4>Social Accounts</h4>
+                <div id="account-links">
+                    <div id="instagarm"> <a href="http://"><img src="instagram.png" alt="Instagram">Instagram</a></div>
+                    <div id="x"><a href="http://"><img src="x.png" alt="X">X</a></div>
+                    <div id="tiktok"> <a href="http://"><img src="tiktok.png" alt="TikTok">TikTok</a></div>
+                </div>
+            </div>
+
+            <div class="organize" id="right">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <span>&copy; 2024 BUYWAY MARKETPLACE</span>
+            <div class="vertical-line"></div>
+            <span>All Rights Reserved</span>
+        </div>
+    </footer>
+
+</body>
+</html>

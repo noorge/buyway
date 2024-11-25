@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Offers</title>
+    <link rel="stylesheet" href="styleSheet.css">
+    <script src="manageOffers.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <img id="logo" src="webLogo.png" alt="logo">
+
+            <div id="navigation">
+                <form class="search-bar" action="search_results.html" method="get">
+                    <input type="text" name="search" placeholder="Search...">
+                    <input type="submit" value="Search">
+                </form>
+
+                <div id="links">
+                    <a href="index.html">Home Page/</a>
+                    <a href="sellerDashboard.html">Seller Dashboard/</a>
+                    <a href="manageOffers.html">Manage Offers</a>
+                </div>
+            </div>
+
+            <blockquote>
+                Our vision: to build a thriving marketplace where creators and entrepreneurs can bring their unique products to a global audience.
+            </blockquote>
+        </div>
+    </header>
+
+    <div id="sidebar" class="float">
+        <div id="user-seller-sidebar">
+            <div id="pic-div">
+                <div id="user-sidebar">
+                    <img src="profile.png" alt="User Profile">
+                    <a href="userforder.html">user</a>
+                </div>
+                <div id="Seller-sidebar">
+                    <img src="profile.png" alt="Seller Profile">
+                    <a href="sellerDashboard.html">seller</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-container">
+            <dl>
+                <dt><a href="usercart.html">&nbsp;&nbsp;cart page</a></dt>
+                <dt><a href="clothes.html">&nbsp;&nbsp;clothes</a></dt>
+                <dt><a href="beauty.html">&nbsp;&nbsp;beauty</a></dt>
+                <dt><a href="electronics.html">&nbsp;&nbsp;electronics</a></dt>
+            </dl>
+        </div>
+    </div>
+
+    <main>
+        <div id="manage-offers2-title2"><h2>Manage Offers</h2></div>
+        <!-- Manage Offers Section -->
+        <div id="manage-offers2-container2">
+
+            <div id="manage-offers2">
+                <h2>Delete Offers</h2>
+                <div>
+                    <input type="checkbox" id="select-all">
+                    <label for="select-all">Select All</label>
+                    <button id="Delete2">Delete</button>
+                </div>
+                <!-- Offers List -->
+                <div id="offer-list"></div>
+            </div>
+
+            <!-- New Offer Section -->
+            <div id="new-offer2">
+                <h2>Make New Offer</h2>
+                <form id="new-offer2-form">
+                    <div class="form-group2">
+                        <label for="image">Image</label>
+                        <input type="file" id="image" name="image">
+                    </div>
+                    <div class="form-group2">
+                        <label for="label">Label</label>
+                        <input type="text" id="label" name="label" placeholder="Enter offer label">
+                    </div>
+                    <div class="form-group2">
+                        <label for="content">Content</label>
+                        <textarea id="content" name="content" placeholder="Enter offer content"></textarea>
+                    </div>
+                    <button type="submit">Add Offer</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div id="contact-info">
+                <h4>contact info</h4>
+                <ul>
+                    <li><a href="http://">0587465783</a></li>
+                    <li><a href="http://">05823994891</a></li>
+                    <li id="email"><a href="mailto:buyway@gmail.com">buyway@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <span>&copy; 2024 BUYWAY MARKETPLACE</span>
+                <span>All Rights Reserved</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>add a new product</title>
+    <link rel="stylesheet" href="styleSheet.css">
+    <script src="javascript.js"></script>
+    <script src="addProduct.js"></script>
+
+  
+        
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="webLogo.png" alt="logo" id="logo">
+
+            <div id="navigation">
+                <form class="search-bar" action="search_results.html" method="get">
+                    <input type="text" name="search" placeholder="Search...">
+                    <input type="submit" value="Search">
+                </form>
+
+                <div id="links">
+                   <a href="index.html">Home Page/</a> 
+				   <a href="sellerDashboard.html">seller dashboard/</a>
+                   <a href="addProduct.html">add product</a>
+                </div>
+            </div>
+
+            <blockquote>
+                Our vision: to build a thriving marketplace where creators and entrepreneurs can bring their unique
+                products to a global audience.
+            </blockquote>
+        </div>
+
+    </header>
+
+
+    <aside id="sidebar" class="float">
+        <div id="user-seller-sidebar">
+            <div id="pic-div">
+                <div id="user-sidebar">
+                    <img src="profile.png" alt="User Profile">
+                    <a href="userforder.html">user</a>
+                </div>
+                <div id="Seller-sidebar">
+                    <img src="profile.png" alt="Seller Profile">
+                    <a href="sellerDashboard.html">seller</a>
+                </div>
+            </div>
+        </div>
+       
+            <dl >
+                            
+                            <dt><a href="usercart.html">&nbsp;&nbsp;cart page</a></dt>
+                             <dt><a href="clothes.html">&nbsp;&nbsp;clothes</a>
+                                <dt><a href="beauty.html">&nbsp;&nbsp;beauty</a>
+                                    <dt><a href="electronics.html">&nbsp;&nbsp;electronics</a>
+                            </dt>  
+                                                      
+                            </dl>
+       
+
+</aside>
+
+
+<article>
+    <div class="product-container">
+      
+        <div class="product-form">
+            <h2>Add a New Product</h2>
+            <form action="#" method="POST">
+                <label for="product-name">Product Name</label>
+                <input type="text" id="product-name" name="product_name" required>
+
+                <label for="price">Price</label>
+                <input type="number" id="price" name="price" required>
+
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity" required>
+                </select>
+
+                <label for="category">Category</label>
+                <select id="category" name="category">
+                    <option value="electronics">Electronics</option>
+                    <option value="beauty">Beauty</option>
+					<option value="clothes">Clothes</option>
+
+                </select>
+
+                <label for="description">Description</label>
+                <textarea id="description" name="description" rows="4"></textarea>
+
+               
+            </form>
+        </div>
+
+    
+        <div class="vertical-line"></div>
+
+        <div class="photos-section">
+            <label>Photos</label>
+            <div class="photo-inputs">
+                <input type="file" name="photo1" id="photo1" accept="image/*" >
+               
+            </div>
+            <button type="submit" class="submit-btn" onclick="func();return false;">Add Product</button>
+        </div>
+    </div>
+</article>
+
+
+ 
+    
+
+
+ <footer>
+
+        <div id="footer">
+            <div class="organize">
+                <p></p>
+            </div>
+
+            <div id="contact-info">
+                <h4>contact info</h4>
+                <ul>
+                    <li><a href="http://">0587465783</a></li>
+                    <li><a href="http://">05823994891</a></li>
+                    <li id="email"><a href="mailto:">buyway@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <div class="organize">
+                <p></p>
+                <div class="seperation-line"></div>
+            </div>
+            <div id="social-accounts">
+                <h4>social accounts</h4>
+                <div id="account-links">
+                    <div id="instagarm"> <a href="http://"><img src="instagram.png" alt="instagarm">instagram</a></div>
+                    <div id="x"><a href="http://"><img src="x.png" alt="x">x</a></div>
+                    <div id="tiktok"> <a href="http://"><img src="tiktok.png" alt="tiktok">tiktok</a></div>
+                    <div id="bottom"></div>
+                </div>
+            </div>
+            <div class="organize" id="right">
+                <p></p>
+            </div>
+        </div>
+
+
+        <div class="footer-content">
+            <span>&copy; 2024 BUYWAY MARKETPLACE</span>
+            <div class="vertical-line"></div>
+            <span>All Rights Reserved</span>
+        </div>
+
+
+
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
+
+
+

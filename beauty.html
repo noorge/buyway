@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BEAUTY</title>
+    <link rel="stylesheet" href="styleSheet.css">
+    
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <img id="logo" src="webLogo.png" alt="logo">
+            <img id="name-img" src="name.png" alt="Website Name">
+            <div id="navigation">
+                <form class="search-bar" action="search_results.html" method="get">
+                    <input type="text" name="search" placeholder="Search...">
+                    <input type="submit" value="Search">
+                </form>
+                <div id="links">
+                    <a href="index.html">Home Page</a> / Beauty Section
+                </div>
+            </div>
+            <blockquote>
+                Our vision: to build a thriving marketplace where creators and entrepreneurs can bring their unique products to a global audience.
+            </blockquote>
+        </div>
+    </header>
+
+    <aside id="sidebar" class="float">
+        <div id="user-seller-sidebar">
+            <div id="pic-div">
+                <div id="user-sidebar">
+                    <img src="profile.png" alt="User Profile">
+                    <a href="userforder.html">user</a>
+                </div>
+                <div id="Seller-sidebar">
+                    <img src="profile.png" alt="Seller Profile">
+                    <a href="sellerDashboard.html">seller</a>
+                </div>
+            </div>
+        </div>
+        <dl>
+            <dt><a href="usercart.html">&nbsp;&nbsp;cart page</a></dt>
+            <dt><a href="clothes.html">&nbsp;&nbsp;clothes</a></dt>
+            <dt><a href="beauty.html">&nbsp;&nbsp;beauty</a></dt>
+            <dt><a href="electronics.html">&nbsp;&nbsp;electronics</a></dt>
+        </dl>
+    </aside>
+
+    <nav>
+        <a href="index.html" class="back-arrow"><img src="backarrow.png" alt="Back" class="back-icon"></a>
+        <h1>BEAUTY</h1>
+    </nav>
+
+    <section>
+        <div class="sort-bar">
+            <select name="sort" id="sort-products">
+                <optgroup label="Sort by price">
+                    <option value="low-to-high">Price: low to high</option>
+                    <option value="high-to-low">Price: high to low</option>
+                </optgroup>
+                <optgroup label="Sort by name">
+                    <option value="a-to-z">Name: A to Z</option>
+                    <option value="z-to-a">Name: Z to A</option>
+                </optgroup>
+            </select>
+            <div class="cart-link">
+                <a href="usercart.html"><img src="cart.png" alt="cart" class="cart-image" id="cart-img"> </a>
+            </div>
+        </div>
+    </section>
+
+    <article>
+        <div class="products-grid" id="product-list">
+        </div>
+    </article>
+
+  
+    <footer>
+        <div id="footer">
+            <div class="organize">
+                <p></p>
+            </div>
+
+            <div id="contact-info">
+                <h4>contact info</h4>
+                <ul>
+                    <li><a href="http://">0587465783</a></li>
+                    <li><a href="http://">05823994891</a></li>
+                    <li id="email"><a href="mailto:">buyway@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <div class="organize">
+                <p></p>
+                <div class="seperation-line"></div>
+            </div>
+            <div id="social-accounts">
+                <h4>social accounts</h4>
+                <div id="account-links">
+                    <div id="instagarm"> <a href="http://"><img src="instagram.png" alt="instagarm">instagram</a></div>
+                    <div id="x"><a href="http://"><img src="x.png" alt="x">x</a></div>
+                    <div id="tiktok"> <a href="http://"><img src="tiktok.png" alt="tiktok">tiktok</a></div>
+                    <div id="bottom"></div>
+                </div>
+            </div>
+            <div class="organize" id="right">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <span>&copy; 2024 BUYWAY MARKETPLACE</span>
+            <div class="vertical-line"></div>
+            <span>All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="beautyScript.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
